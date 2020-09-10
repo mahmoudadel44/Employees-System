@@ -1,5 +1,5 @@
 import React from 'react';
-import { Formik, Field } from 'formik';
+import { Formik} from 'formik';
 import { Link } from 'react-router-dom';
 import * as Yup from 'yup';
 import './Register.css';
@@ -7,7 +7,6 @@ import history from '../../history';
 
 const Register = () => {
   const onSumit = (values) => {
-    const data = { ...values };
     history.push('/home')
   };
   return (
@@ -260,32 +259,4 @@ const Register = () => {
     </main>
   );
 };
-
-const RadioButton = ({
-  field: {
-    name, value, onChange, onBlur,
-  },
-  id,
-  label,
-  className,
-  onSelect,
-  ...props
-}) => (
-    <div>
-      <input
-        style={{ margin: '5px' }}
-        name={name}
-        id={id}
-        type="radio"
-        value={id}
-        checked={id === value}
-        onChange={onChange}
-        onClick={onSelect}
-        onBlur={onBlur}
-        {...props}
-      />
-      <label htmlFor={id}>{label}</label>
-    </div>
-  );
-
 export { Register };

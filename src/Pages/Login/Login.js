@@ -6,7 +6,6 @@ import history from '../../history';
 
 const Login = () => {
   const onSumit = (values) => {
-    const data = { ...values };
     history.push('/home')
   };
 
@@ -23,7 +22,7 @@ const Login = () => {
                   onSubmit={onSumit}
                   validationSchema={Yup.object().shape({
                     email: Yup.string().email('Please Enter Valid Email').required('Email is Required'),
-                    password: Yup.string().min(6,'The password must be at least six characters').required('Password Is Required'),
+                    password: Yup.string().min(6, 'The password must be at least six characters').required('Password Is Required'),
                   })}
                   render={({
                     handleChange,
