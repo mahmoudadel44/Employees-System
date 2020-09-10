@@ -3,11 +3,9 @@ import { Router, Route, Switch } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 // /////////// toast \\\\\\\\\\\\\\\\\\\\\\\\
 import 'react-toastify/dist/ReactToastify.css';
-import {
-  Login,
-  Register,
-  Home
-} from './Pages';
+import Register from './Pages/Register/Register'
+import Login from './Pages/Login/Login';
+import Home from './Pages/Home/Home';
 import history from './history';
 function App() {
   return (

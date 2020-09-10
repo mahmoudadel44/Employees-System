@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { withRouter } from "react-router";
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 import history from '../../history';
@@ -95,4 +96,4 @@ const Login = () => {
   );
 };
 
-export { Login };
+export default withRouter(Login) ;

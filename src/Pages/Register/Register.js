@@ -1,6 +1,7 @@
 import React from 'react';
 import { Formik} from 'formik';
 import { Link } from 'react-router-dom';
+import { withRouter } from "react-router";
 import * as Yup from 'yup';
 import './Register.css';
 import history from '../../history';
@@ -259,4 +260,4 @@ const Register = () => {
     </main>
   );
 };
-export { Register };
+export default withRouter(Register);
