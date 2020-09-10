@@ -1,0 +1,485 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+
+body div , body section , body footer{
+    direction:ltr;
+}
+#logo{
+    text-align: right;
+}
+.discover *{
+    direction: ltr;
+}
+.discover .box_feat span {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+}
+ul#top_access {
+    float: left;
+}
+.main-menu {
+    float: left;
+}
+#custom-search-input input[type='button'] {
+    left: 0;
+    right: auto;
+}
+#custom-search-input .search-query {
+    padding-right: 20px;
+    padding-left: 0;
+}
+a.box_cat_home i {
+    left: 10px;
+    right: auto;
+}
+#app_section .app-text{
+    text-align: right;
+}
+footer .row > div{
+    text-align: right;
+}
+.follow_us ul li, footer ul li a i {
+    margin-left: 10px;
+    margin-right: 0;
+}
+footer ul.contacts li a i {
+    margin-left: 10px;
+    margin-right: 0;
+    float: right;
+}
+footer #copy {
+    text-align: left;
+}
+ul#additional_links {
+    direction: ltr;
+}
+.main-menu ul ul {
+    right: 3px;
+    left: auto;
+}
+ul#top_access li {
+    /* margin-right: 15px; */
+    margin-left: 0;
+}
+.search_bar_error input[type='submit'] {
+    left: 0;
+    right: auto;
+}
+.about-body-text{
+    text-align: right;
+}
+.about-review-container p{
+    text-align: right;
+}
+.about-review .user_review {
+    padding-right: 60px;
+    padding-left: 0;
+}
+.about-review .user_review figure {
+    right: 0;
+    left: auto;
+}
+.about-review .user_review h4 {
+    text-align: right;
+}
+.about-review .rating {
+    width: 100%;
+    text-align: right;
+}
+.about-review .rating .voted {
+    float: right;
+}
+.about-review .rating strong{
+    margin-right: 5px;
+}
+.booking-container{
+    text-align: right;
+}
+.form_title h3 strong {
+    right: 0;
+}
+.form_title {
+    padding-right: 55px;
+    padding-left: 0;
+}
+.container_check .checkmark {
+    right: 0;
+    left: auto;
+}
+.container_check {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.summary ul li strong, ul.treatments.checkout li strong{
+    float: left!important;
+}
+#breadcrumb ul {
+    text-align: right;
+}
+#breadcrumb ul li {
+    padding-left: 8px;
+    margin-left: 3px;
+    padding-right: 0;
+    margin-right: 0;
+}
+#breadcrumb ul li:after {
+    left: 0;
+    right: auto;
+}
+#contact_info{
+    text-align: right;
+}
+.contact-container .box_general{
+    text-align: right;
+}
+.booking .title {
+    text-align: right;
+}
+.booking-details #secondary_nav{
+    text-align: right;
+}
+.booking-details #secondary_nav ul li {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.booking-details .details{
+    text-align: right;
+}
+.booking-details .badge_list_1 {
+    margin-right: 10px;
+    margin-left: 0;
+}
+.booking-details .indent_title_in {
+    padding-right: 60px;
+    padding-left: 0;
+    text-align: right;
+}
+.booking-details .indent_title_in i {
+    right: 0;
+    left: auto;
+
+}
+.booking-details .wrapper_indent p{
+    text-align: right;
+}
+.booking-details h6{
+    text-align: right;
+}
+.booking-details ul.bullets {
+    line-height: 1.8;
+    margin-bottom: 0;
+    text-align: right;
+}
+.booking-details ul.bullets li {
+    padding-right: 20px;
+    padding-left: 0;
+}
+.booking-details ul.bullets li:before {
+    right: 0;
+    left: auto;
+}
+ul.list_edu {
+    text-align: right;
+}
+ul.list_edu li:before {
+    margin-left: 8px;
+    margin-right: 0;
+    float: right;
+}
+ul.list_edu li strong {
+    float: right;
+}
+.booking-details .table thead th, .table tbody td {
+    text-align: right;
+}
+.booking-details .reviews-container{
+    text-align: right;
+}
+.reviews-container .review-box {
+    padding-right: 100px;
+    padding-left: 0;
+}
+.reviews-container .rev-thumb {
+    right: 0px;
+}
+input[type=checkbox].css-checkbox + label.css-label {
+    padding-right: 35px;
+    padding-left: 0;
+}
+.treatments .checkbox{
+    text-align: right;
+}
+label.css-label strong {
+    float: left;
+}
+.box_profile ul.contacts {
+    text-align: right;
+}
+.datepicker thead tr th.prev:before {
+    content: '\e9f2';
+}
+.datepicker thead tr th.next:before {
+    content: '\e9f1';
+}
+ul.time_select.version_2 li {
+    text-align: center;
+}
+ul.legend{
+    text-align: right;
+}
+ul.legend li strong {
+    right: 0;
+    left: auto;
+}
+ul.legend li {
+    margin-left: 15px;
+    margin-right: 0;
+    padding-right: 30px;
+    padding-left: 0;
+}
+.details-tabs{
+    text-align: right;
+}
+.details-tabs .indent_title_in {
+    position: relative;
+    padding-right: 60px;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+.details-tabs .indent_title_in i {
+    right: 0;
+}
+ul.bullets li {
+    padding-right: 20px;
+    padding-left: 0;
+}
+ul.bullets li:before {
+    right: 0;
+    left: auto;
+}
+.faq{
+    text-align: right;
+}
+.faq ul#cat_nav li a:after {
+    content: "\e89a";
+    right: auto;
+    left: 15px;
+}
+#breadcrumb ul li:after {
+    content: "\e89a";
+    left: -1px;
+    right: auto;
+}
+ul#cat_nav li i {
+    margin: 1px 0 0 10px;
+    float: right;
+}
+ul#cat_nav li a:after {
+    content: "\e89b";
+    right: auto;
+    left: 15px;
+}
+.card-header h5 a i.indicator {
+    float: left;
+}
+.grid-container{
+    text-align: right;
+}
+.box_list ul li:last-child {
+    margin-right: 0;
+    float: left;
+}
+.box_list ul li i {
+    margin-left: 5px;
+    margin-right: 0;
+    float: right;
+}
+.rating i {
+    float: right;
+}
+a.wish_bt {
+    left: 15px;
+    right: auto;
+}
+.search_bar_list input[type='submit'] {
+    left: -1px;
+    right: auto;
+}
+#results h4 {
+    text-align: right;
+}
+#results h4 strong {
+    font-weight: 600;
+    float: right;
+    margin-left: 5px;
+}
+.filters_listing ul li:first-child {
+    float: left !important;
+}
+.filters_listing ul li:nth-child(2) {
+    float: left;
+    margin-left: 0;
+    margin-right: auto;
+}
+.filters_listing ul li:nth-child(3) {
+    float: left;
+}
+.filters_listing ul li {
+    margin-left: 10px;
+    text-align: right;
+}
+.sbToggle {
+    left: 0;
+    right: auto;
+}
+.list-container{
+    text-align: right;
+}
+.strip_list figure {
+    right: 15px;
+    left: auto;
+}
+.strip_list {
+    padding: 20px 115px 15px 15px;
+}
+.strip_list h3 {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.strip_list ul {
+    margin: 15px -115px -15px -15px;
+}
+.strip_list ul li:last-child {
+    float: left;
+}
+.strip_list ul li:first-child:after {
+    margin-right: 8px;
+    margin-left: 0;
+}
+.box_login {
+    float: right;
+    /* border-left: 1px solid #e1e8ed; */
+    border-right: none;
+    padding: 15px 25px;
+}
+.box_form .form-group {
+    text-align: left;
+}
+.box_form  strong {
+    margin-right: 5px;
+}
+.hideShowPassword-wrapper button{
+    left: 5px!important;
+    right: auto!important;
+}
+.hideShowPassword-wrapper input{
+    padding-left: 51px!important;
+    padding-right: 10px!important;
+}
+#register .checkbox_2 {
+    text-align: right;
+}
+#register .checkbox_2:before {
+    right: 0;
+    left: auto;
+}
+#register .checkbox_2 label:after {
+    right: 6px;
+    left: auto;
+}
+#register .checkbox-holder span {
+    margin: 2px 30px 0 0;
+}
+#hero_register {
+    text-align: right;
+}
+#hero_register  .box_feat_2 i {
+    right: 0;
+    left: auto;
+}
+#hero_register .box_feat_2 {
+    padding-right: 60px;
+    padding-left: 0;
+}
+.submit-review{
+    text-align: right;
+}
+.mobile-only{
+    display: none;
+}
+.screen-only{
+    display: block;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 991px)
+{
+   
+    #logo {
+        position: relative;
+        right: 45px;
+        left: auto;
+    }
+    ul#top_access {
+        float: right;
+    }
+    .mobile-only{
+        display: block!important;
+    }
+    .screen-only{
+        display: none!important;
+    }
+}
+
+
+@media (max-width: 767px){
+    footer #copy {
+        text-align: right;
+        margin-bottom: 25px;
+    }
+    .indent_title_in {
+        padding-left: 0;
+        padding-right: 0!important;
+    }
+    .reviews-container .review-box {
+        padding-left: 0;
+        padding-right: 0!important;
+    }
+    footer .row > div:nth-of-type(2), footer .row > div:nth-of-type(3){
+        width: 49%;
+    }
+}
+@media (min-width: 767px) and (max-width: 991px){
+    #logo_home {
+        position: relative;
+        left: 11vw;
+    }
+}
+@media (min-width: 500px) and (max-width: 767px){
+    #logo_home {
+        position: relative;
+        left: 15vw;
+    }
+}
+@media (max-width: 500px){
+    #logo_home {
+        position: relative;
+        left: 18vw;
+    }
+    
+}
+
+
+.cancelling{
+    margin: '100px !important';
+}
+
